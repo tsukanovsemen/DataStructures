@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\List">
+      <UniqueIdentifier>{7bd19093-a7f8-40c2-8bb7-ca2089da029c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\HashTable">
+      <UniqueIdentifier>{9f25c56b-6943-4ed9-ba23-67d6588c23d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Dictionary">
+      <UniqueIdentifier>{c7cecf69-81a2-4725-99db-ebac2cf4793a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Menu">
+      <UniqueIdentifier>{3b37bb32-8a94-4754-86f8-a20e30ed8039}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Исходные файлы\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Исходные файлы\List</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>Исходные файлы\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Исходные файлы\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="IOmenu.cpp">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List.h">
+      <Filter>Исходные файлы\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Исходные файлы\List</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Исходные файлы\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="Dictionary.h">
+      <Filter>Исходные файлы\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="IOmenu.h">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
