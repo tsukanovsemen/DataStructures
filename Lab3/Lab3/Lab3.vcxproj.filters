@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Stack">
+      <UniqueIdentifier>{714979de-9bbc-4475-9c02-11dd56ae12da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\RingBuffer">
+      <UniqueIdentifier>{279b47d7-5160-40d6-8e67-f585bb9eaf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\List">
+      <UniqueIdentifier>{5793246d-fd63-4b2a-ae01-ec560cf3e0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\RingQueue">
+      <UniqueIdentifier>{aab55564-86e5-4fe3-bd1d-2bea2d5cffbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\QueueStack">
+      <UniqueIdentifier>{4b33dddd-d32f-4897-a140-f05f8a3756d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Menu">
+      <UniqueIdentifier>{460c3cb1-1e42-41d6-8a54-00309f8af804}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Исходные файлы\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Исходные файлы\RingBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RingQueue.cpp">
+      <Filter>Исходные файлы\RingQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Исходные файлы\QueueStack</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack.h">
+      <Filter>Исходные файлы\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Исходные файлы\RingBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RingQueue.h">
+      <Filter>Исходные файлы\RingQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Исходные файлы\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Исходные файлы\QueueStack</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\BinaryTree">
+      <UniqueIdentifier>{0bc1e474-af18-46ae-8434-ee95ca4e3e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Treap">
+      <UniqueIdentifier>{fe970a6a-ddf3-46f6-bd2a-8028b0d2c00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Trunk">
+      <UniqueIdentifier>{7f2be142-e9b8-4016-b7d1-1d53f9064688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Исходные файлы\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Treap.h">
+      <Filter>Исходные файлы\Treap</Filter>
+    </ClInclude>
+    <ClInclude Include="Trunk.h">
+      <Filter>Исходные файлы\Trunk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>Исходные файлы\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Treap.cpp">
+      <Filter>Исходные файлы\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="Trunk.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
